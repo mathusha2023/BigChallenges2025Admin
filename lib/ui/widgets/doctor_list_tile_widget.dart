@@ -55,11 +55,7 @@ class DoctorListTileWidget extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          doctor.gender == 1 ? "Женщина" : "Мужчина",
-                          style: Theme.of(context).textTheme.displayLarge,
-                        ),
-                        Text(
-                          "${doctor.age} лет",
+                          doctor.hospital,
                           style: Theme.of(context).textTheme.displayLarge,
                         ),
                       ],

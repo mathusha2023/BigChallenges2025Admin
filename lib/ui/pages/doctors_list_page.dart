@@ -27,8 +27,16 @@ class _DoctorsListPageState extends State<DoctorsListPage> {
       Duration(seconds: 2),
       () => List.generate(
         15,
-        (int index) =>
-            DoctorListModel("${index + 1}", "Иванов Иван Иванович", 47, 0),
+        (int index) => DoctorListModel(
+          "${index + 1}",
+          "Иванов Иван Иванович",
+          47,
+          0,
+          "Городская больница номер 22 города Смоленск",
+          "ул. Госпитальная, д. 32",
+          "89303042212",
+          "Рядовой окулист",
+        ),
       ),
     );
   }
