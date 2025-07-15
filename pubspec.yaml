@@ -40,6 +40,7 @@ dependencies:
     sdk: flutter
   apptomate_custom_snackbar: ^0.0.2
   flutter_dotenv: ^5.2.1
+  bottom_picker: ^3.2.1
 
 
 dev_dependencies:
