@@ -41,6 +41,8 @@ dependencies:
   apptomate_custom_snackbar: ^0.0.2
   flutter_dotenv: ^5.2.1
   bottom_picker: ^3.2.1
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
 
 
 dev_dependencies:
