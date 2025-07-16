@@ -26,7 +26,13 @@ class LaunchUrlTextWidget extends StatelessWidget {
           }
         }
       },
-      child: Text(text, style: Theme.of(context).textTheme.titleSmall),
+      child: Text(
+        text,
+        style: Theme.of(context).textTheme.titleSmall?.copyWith(
+          decoration: TextDecoration.underline,
+          decorationColor: Theme.of(context).colorScheme.secondary,
+        ),
+      ),
     );
   }
 }
