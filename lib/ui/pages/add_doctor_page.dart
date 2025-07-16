@@ -3,6 +3,7 @@ import 'package:bc_admin/ui/widgets/show_snackbar.dart';
 import 'package:bottom_picker/bottom_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_multi_formatter/flutter_multi_formatter.dart';
 import 'package:go_router/go_router.dart';
 
 class AddDoctorPage extends StatefulWidget {
@@ -82,6 +83,7 @@ class _AddDoctorPageState extends State<AddDoctorPage> {
               const SizedBox(height: 8),
               TextField(
                 controller: _phoneController,
+                inputFormatters: [PhoneInputFormatter()],
                 keyboardType: TextInputType.phone,
                 style: theme.textTheme.bodyMedium,
                 decoration: InputDecoration(hintText: "+7 (999) 999-99-99"),

@@ -7,6 +7,7 @@ class DoctorListModel {
   final String address;
   final String phone;
   final String post;
+  final String email;
 
   DoctorListModel(
     this.id,
@@ -17,5 +18,6 @@ class DoctorListModel {
     this.address,
     this.phone,
     this.post,
+    this.email,
   );
 }

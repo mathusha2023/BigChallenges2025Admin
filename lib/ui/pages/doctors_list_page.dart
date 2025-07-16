@@ -36,6 +36,7 @@ class _DoctorsListPageState extends State<DoctorsListPage> {
           "ул. Госпитальная, д. 32",
           "89303042212",
           "Рядовой окулист",
+          "lasossss@doc.ok",
         ),
       ),
     );
