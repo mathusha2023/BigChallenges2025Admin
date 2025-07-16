@@ -275,7 +275,12 @@ class _DoctorInfoPageState extends State<DoctorInfoPage> {
             width: double.infinity,
             child: ElevatedButton(
               onPressed: _saveEditing,
-              child: Text("Сохранить"),
+              child: Text(
+                "Сохранить",
+                style: theme.textTheme.bodyLarge?.copyWith(
+                  color: theme.canvasColor,
+                ),
+              ),
             ),
           ),
           crossFadeState: _edit
